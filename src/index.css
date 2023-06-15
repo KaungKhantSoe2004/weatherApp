@@ -1,0 +1,124 @@
+body {
+padding: 2rem;
+ background-color: #5a5151
+
+}
+.nothing{
+  background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.h1{
+  color: rgba(0,212,255,1);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+input{
+  width: 70vh;
+  height: 30px;
+  margin-right: 9px;
+  border-radius: 5px;
+  padding: 4px;
+}
+input:focus{
+  background-color: rgba(255, 255, 255, 0.75);
+}
+button{
+  height: 33px;
+  cursor: pointer;
+}
+button:hover{
+  background-color:  #0698bd;
+  box-shadow: none;
+}
+.inputContainer{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(150, 12, 131) 0%, rgb(190, 14, 149) 35%, rgba(0,212,255,1) 100%);
+  width: 80vh;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 0 10px 24px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.body{
+  background: linear-gradient(90deg, rgba(150, 12, 131) 0%, rgba(190, 14, 149) 35%, rgba(0,212,255,1) 100%);
+  width: 80vh;
+  box-shadow: 0 10px 24px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.lo{
+  margin-bottom: 50px;
+}
+.Hlocation{
+  color:aliceblue;
+border-bottom: solid black 0.5px;
+text-align: center;
+margin:9px 20%;
+padding-bottom: 9px;
+}
+.locationAndDate{
+color:rgb(189, 219, 246);
+font-size: 2.4vh;
+
+}
+.locationAndDate div{
+  margin-bottom: 1vh;
+}
+.temp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+.temp>div{
+  
+  margin: 9px 20%;
+}
+.temp>.tempText{
+  font-size: 2rem;
+  color: rgb(17, 1, 1);
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  height: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 3%;
+  background-color:rgba(255, 255, 255, 0.2);
+ box-shadow: 0 11px 20px ;
+}
+.sum{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-left: 20%;
+}
+h2{
+  color:aliceblue;
+  margin-bottom: 5px;
+}
+.sum>div{
+  font-size: 1.4rem;
+  color:rgb(189, 219, 246);
+}
+img{
+position: relative;
+right: 10vh;
+}
+
+
+
